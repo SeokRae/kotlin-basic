@@ -1,5 +1,4 @@
-package ch02.person
-
+package com.example.chapter2.clazz
 class Person(
     val name: String,
     var isMarried: Boolean
