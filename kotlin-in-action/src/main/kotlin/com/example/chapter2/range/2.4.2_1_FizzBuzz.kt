@@ -1,4 +1,4 @@
-package ch02.FizzBuzz
+package com.example.chapter2.range
 
 fun fizzBuzz(i: Int) = when {
     i % 15 == 0 -> "FizzBuzz "

@@ -1,4 +1,4 @@
-package ch02.ex4_3_IteratingOverMaps
+package com.example.chapter2.range
 
 import java.util.TreeMap
 
@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     val binaryReps = TreeMap<Char, String>()
 
     for (c in 'A'..'F') {
-        val binary = Integer.toBinaryString(c.toInt())
+        val binary = Integer.toBinaryString(c.code)
         binaryReps[c] = binary
     }
 
