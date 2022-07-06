@@ -8,4 +8,5 @@ version = "1.0-SNAPSHOT"
 dependencies {
     implementation(kotlin("reflect"))
     implementation(kotlin("stdlib-jdk8"))
+    testImplementation(kotlin("junit"))
 }
